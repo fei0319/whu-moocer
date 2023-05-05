@@ -10,8 +10,8 @@
 
 根据您偏好的浏览器下载对应的驱动。此处以 Chrome 为例。
 
-- 在 [https://chromedriver.storage.googleapis.com/index.html](https://chromedriver.storage.googleapis.com/index.html) 找到适合版本的驱动并下载
-- 解压下载文件，将 `main.py` 第 1 行的 `DRIVER_PATH` 的值修改为驱动的绝对路径，例如 `r'C:/Users/me/Downloads/chromedriver.exe'`
+- 在 [https://chromedriver.storage.googleapis.com/index.html](https://chromedriver.storage.googleapis.com/index.html) 找到适合版本的驱动并下载，解压至您偏好的位置
+- 下载本仓库中的 `main.py`，将其第 1 行的 `DRIVER_PATH` 的值修改为驱动的绝对路径，例如 `r'C:/Users/me/Downloads/chromedriver.exe'`
 
 ## 使用
 
