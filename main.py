@@ -103,6 +103,7 @@ def element_to_course(web_element, driver):
 def run():
     options = webdriver.ChromeOptions()
     options.add_experimental_option('excludeSwitches', ['enable-logging'])
+    options.add_argument("--mute-audio")
 
     wd = webdriver.Chrome(options=options, service=Service(DRIVER_PATH))
     wd.implicitly_wait(IMPLICITLY_WAIT)
